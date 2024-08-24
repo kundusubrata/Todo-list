@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  background-color: rgb(0, 94, 255);
+}
+
+.heading {
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 150px;
+  background-color: white;
+  color: rgb(0, 94, 255);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  background-color: white;
+  margin: 80px 600px;
+  padding: 30px 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.todo-list {
+  margin: 15px 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(172, 228, 225);
+  border-radius: 5px;
+}
+.editBtn{
+  background-color: rgb(2, 2, 168);
+  color: white;
+  font-size: 18px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 8px;
+}
+.editBtn:hover{
+  cursor: pointer;
+}
+.delBtn {
+  background-color: rgb(2, 2, 168);
+  color: white;
+  font-size: 18px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: none;
+}
+.delBtn:hover{
+  cursor: pointer;
+}
+.create-todo {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+.create-todo input {
+  padding: 10px 20px;
+  font-size: 18px;
+  width: 550px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+.create-todo input:focus{
+  outline: 1px solid rgb(0, 94, 255);
+  outline-offset: 1px;
+  border:none;
+}
+.addBtn{
+  background-color: rgb(0, 94, 255);
+  color:white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+.addBtn:hover{
+  cursor: pointer;
+}
